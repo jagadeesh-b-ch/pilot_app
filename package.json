@@ -1,0 +1,22 @@
+{
+  "name": "pilot_app",
+  "version": "1.0.0",
+  "description": "Theme for web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagadeesh-b-ch/pilot_app.git"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "author": "Jagadeesh Babu Chitta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagadeesh-b-ch/pilot_app/issues"
+  },
+  "homepage": "https://github.com/jagadeesh-b-ch/pilot_app#readme"
+}
