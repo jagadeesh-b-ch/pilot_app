@@ -2,8 +2,19 @@
 <head>
   <title>Web application theme</title>
   <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
+  <link rel="stylesheet" href="source/css/ux-theme.css">
 </head>
 <body data-ng-controller="homeControl as hmeCtrl">
+  <div layout="row" class="page-header">
+    <div flex="5" class="header-icon">
+      Icon here
+    </div>
+    <div flex="95" class="header-title">
+      <h1>
+        Application Name
+      </h1>
+    </div>
+  </div>
 	<h1>Hello there.!! Mr. {{hmeCtrl.name}}</h1>
   <div>
     <md-button class="md-raised md-primary">Primary</md-button>
@@ -14,6 +25,6 @@
 	<script type="text/javascript" src="node_modules/angular-aria/angular-aria.min.js"></script>
 	<script type="text/javascript" src="node_modules/angular-messages/angular-messages.min.js"></script>
 	<script type="text/javascript" src="node_modules/angular-material/angular-material.min.js"></script>
-	<script type="text/javascript" src="source/index.js"></script>
+	<script type="text/javascript" src="source/js/index.js"></script>
 </body>
 </html>
